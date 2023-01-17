@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     async function fetchData(){
       const data = await getAllPokemonList();
-      setPokemonData(data?.result);
+      setPokemonData(data?.results);
     }
     fetchData();
   }, [])
