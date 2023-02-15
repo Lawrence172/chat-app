@@ -27,10 +27,48 @@
     border-radius: 5px;
     color: rgb(196, 194, 194);
     padding-left: 1rem;
+    border: 1px solid #000;
 }
 .signup button{
     width: 95%;
-    height: 3rem;
+    height: 3.5rem;
     border: none;
     margin: auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.or{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.or hr{
+    width: 30rem;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid #000;
+    color: #000;
+    height: 3.5rem;
+    padding: 0 3rem;
+    /* width: 100%; */
+}
+.already{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.already h6{
+    font-size: 1rem;
+    color: #000;
+}
+.sign{
+    text-decoration: none;
+    color: #000;
 }
