@@ -1,11 +1,11 @@
 .signup {
-    margin-top: -2rem;
+    margin-top: -1rem;
     width: 100%;
     height: max-content;
 }
 
 .signup h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .form {

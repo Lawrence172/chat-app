@@ -11,8 +11,8 @@ function Signup() {
             <input type='text' placeholder='Last Name' />
             <input type='email' placeholder='Email Address' />
             <input type='password' placeholder='Password' />
+            <button>Sign Up</button>
         </div>
-        <button>Sign Up</button>
     </div>
     </>
   )
